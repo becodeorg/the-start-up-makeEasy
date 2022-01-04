@@ -4,6 +4,8 @@
 
 #### wire-frame
 
+[Figma wire-frame](https://www.figma.com/file/IPPOhZz0KtJvxV7tQzG894/Home-page-for-makes-easy?node-id=0%3A1)
+
  #### idea
    - website shop
 
@@ -11,7 +13,7 @@
    - mim 2 pages
 
  ####  objection of web
-   - our product is wesites
+   - Build an interactive website
 
  ####  language we use
    - html
