@@ -1,34 +1,34 @@
-# the-start-up-makes-easy
+# makes-easy
 
-### before start code
+### Structure before start code
 
  #### idea
-   - website shop
+     web shop
    
 
 #### wire-frame
-   - [Figma wire-frame](https://www.figma.com/file/IPPOhZz0KtJvxV7tQzG894/Home-page-for-makes-easy?node-id=0%3A1)
+   [Figma wire-frame](https://www.figma.com/file/IPPOhZz0KtJvxV7tQzG894/Home-page-for-makes-easy?node-id=0%3A1)
    
    
 
  ####  page numbers
-   - min 2 pages
+     min 2 pages
 
 
 
  ####  objection of project
-     - Build an interactive website
+     Build an interactive website
      
 
  ####  which computer language we use
-   - html
-   - css
+      html
+      css
 
 
 
  #### fram-work and extention
-   - Scss
-   - bootstarp
+      Scss
+      bootstarp
 
 
 
