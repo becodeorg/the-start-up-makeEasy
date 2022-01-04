@@ -8,10 +8,10 @@
    - website shop
 
  ####  page numbers
-   - mim 2 pages
+   - min 2 pages
 
  ####  objection of web
-   - our product is wesites
+   - our product is websites
 
  ####  language we use
    - html
