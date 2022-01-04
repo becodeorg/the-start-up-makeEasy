@@ -15,11 +15,20 @@ body .container {
   -ms-grid-columns: 70% 30%;
       grid-template-columns: 70% 30%;
   grid-gap: 5%;
+  height: auto;
 }
 
 body aside {
   background-color: #DDC3A5;
   margin: 5% 0 5% 0;
+}
+
+body section {
+  background-color: #DDC3A5;
+  margin: 0 -50% 10% 0;
+  -ms-grid-columns: 90%;
+      grid-template-columns: 90%;
+  height: 200px;
 }
 
 body img {
