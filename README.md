@@ -1,9 +1,23 @@
 # the-start-up-makes-easy
 
 ### before start code
- - wire-frame
- - idea
- - page numbers
- - objection of web
- - language we use
- - fram-work and extention
+
+#### wire-frame
+
+ #### idea
+   - website shop
+
+ ####  page numbers
+   - mim 2 pages
+
+ ####  objection of web
+   - our product is wesites
+
+ ####  language we use
+   - html
+   - css
+
+ #### fram-work and extention
+   - Scss
+   - bootstarp
+
