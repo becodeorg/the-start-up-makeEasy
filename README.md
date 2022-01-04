@@ -5,4 +5,5 @@
  - idea
  - page numbers
  - objection of web
- 
+ - language we use
+ - fram-work and extention
