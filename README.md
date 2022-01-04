@@ -4,15 +4,16 @@
 
 #### wire-frame
 
-[Figma wire-frame](https://www.figma.com/file/IPPOhZz0KtJvxV7tQzG894/Home-page-for-makes-easy?node-id=0%3A1)
+  -[Figma wire-frame](https://www.figma.com/file/IPPOhZz0KtJvxV7tQzG894/Home-page-for-makes-easy?node-id=0%3A1)
 
  #### idea
    - website shop
 
  ####  page numbers
-   - mim 2 pages
+   - min 2 pages
 
  ####  objection of web
+
    - Build an interactive website
 
  ####  language we use
