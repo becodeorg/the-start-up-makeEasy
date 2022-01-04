@@ -17,6 +17,7 @@ body {
         grid-gap: 5%;
         height: auto;
     }
+<<<<<<< HEAD
 
     aside {
         background-color: #DDC3A5;
@@ -25,6 +26,12 @@ body {
     }
 
     section {
+=======
+    aside{
+         margin: 5% 5% 5% 0;
+       }
+    section{
+>>>>>>> b98737d75f665cdb2763d27f406b23e67ad33643
         background-color: #DDC3A5;
         margin: 0 -50% 10% 0;
         grid-template-columns: 90%; 
@@ -92,10 +99,15 @@ body {
         height: auto;
         min-height: 100px;
         background-color: #7A2048;
+<<<<<<< HEAD
 	.iframe {
 		height: auto;
 		min-height: 100px;
 	}
+=======
+        display: grid;
+        grid-template-columns: 50% 50%;
+>>>>>>> b98737d75f665cdb2763d27f406b23e67ad33643
     }
 }
 
