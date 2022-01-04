@@ -5,12 +5,22 @@
 
 html {
         height: 100%;
+        width: 100%;
 }
 
 body {
+        .header {
+                height: 50px;
+                background-color: #7A2048;
+        }
         .container {
-                height: 100px;
-                width: 100px;
-                background-color: #EEA47FFF;
+                height: 575px;
+                width: 1365px;
+                background-color: #FCEDDA;
+        }
+        .footer {
+                height: 50px;
+                background-color: #7A2048;
         }
 }
+
