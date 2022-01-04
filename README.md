@@ -33,7 +33,7 @@
 
 
 ## Home Page
-<img width="611" alt="Screenshot 2022-01-04 at 13 09 07" src="https://user-images.githubusercontent.com/59234162/148057954-5fca5186-1508-48b3-9dcb-eddd93c24510.png">
+<img width="612" alt="Screenshot 2022-01-04 at 13 52 06" src="https://user-images.githubusercontent.com/59234162/148062091-de560111-ec97-4639-bda4-40a13c87d3cd.png">
 
 
 ## Contact Page
