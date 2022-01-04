@@ -6,10 +6,28 @@
 
 body{
     .header{
-        height: auto;
-        min-height: 100px;
+        height: 100px;
         background-color: #7A2048;
     }
+    .logo{
+        width: 150px;
+        height: 100px;
+    }
+    .nav{
+        margin: -5% 2% 0 0;
+        
+    }
+    .nav{
+        a{
+            color: white;  
+        }
+        a:hover{
+            color: yellow;
+            transform: scale(1.5);
+        }
+    }
+
+    
     
     .container{
         display: grid;
@@ -19,32 +37,34 @@ body{
        
     }
     aside{
-         margin: 5% 5% 5% 0;
+         margin: 25% 5% 5% 0;
+         height: 500px;
        }
     section{
-        background-color: #DDC3A5;
         margin: 0 -50% 10% 0;
-        grid-template-columns: 90%; 
-         height: 200px;
-      
-        
-    }
+        grid-template-columns: 80%; 
+        height: 200px;
+        text-align: center;
+        padding: 2% 10% 2% 10%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+
     img{
         width: 800px;
-        height: 400px;
+        height: 500px;
     }
     .slider-holder
     {
         width: 800px;
-        height: 400px;
+        height: 500px;
         text-align: center;
         overflow: hidden;
-        margin: 5% 0 5% 0;
+        margin: 10% 0 5% 0;
     }
    
     .image-holder
     {
-        width: 2400px;
+        width: 3500px;
         height: 400px;
         clear: both;
         position: relative;
@@ -76,6 +96,10 @@ body{
     #slider-image-3:target ~ .image-holder
     {
         left: -1600px;
+    }
+    #slider-image-4:target ~ .image-holder
+    {
+        left: -2400px;
     }
    
     .button-holder
