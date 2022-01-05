@@ -4,7 +4,12 @@
     padding: 0;
 }
 
+
+
 body{
+
+    // header
+
     .header {
         height: 100px;
         background-color: #7A2048;
@@ -29,7 +34,7 @@ body{
         }
     }
 
-    
+// container
     
     .container {
         display: grid;
@@ -38,11 +43,13 @@ body{
         height: auto;
     }
 
+    // aside
     aside {
          margin: 25% 5% 5% 0;
          height: 500px;
        }
-    section{
+
+    section {
         margin: 0 -50% 20% 0;
         grid-template-columns: 80%; 
         height: 200px;
@@ -51,7 +58,8 @@ body{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
      }
 
-    img {
+// slide container
+    img{
         width: 800px;
         height: 500px;
     }
@@ -168,12 +176,7 @@ body{
     }
 }
 
-body {
-	.header1 {
-		height: auto;
-		width: 100px;
-		background-color:#7A2048;
-	
-	}
-}
+
+
+
 
