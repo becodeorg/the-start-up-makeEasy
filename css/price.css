@@ -27,6 +27,56 @@ body .nav a:hover {
           transform: scale(1.5);
 }
 
+body .price {
+  width: 80%;
+  margin: 5% 5% 5% 10%;
+}
+
+body .price .card {
+  text-align: center;
+  height: auto;
+  min-height: 300px;
+  -webkit-box-shadow: 5px 10px 10px 5px #888888;
+          box-shadow: 5px 10px 10px 5px #888888;
+}
+
+body .price .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .price span {
+  font-size: 30px;
+  color: #7A2048;
+}
+
+body .price ul {
+  text-align: left;
+  margin-left: 20%;
+}
+
+body .price h5 {
+  color: #e2e248;
+}
+
+body .price h2 {
+  text-align: center;
+  margin: 5%;
+}
+
+body .about-us .div1, body .about-us .div2 {
+  width: 70%;
+  margin: 5% 5% 5% 15%;
+  padding: 3%;
+  -webkit-box-shadow: 5px 10px 10px 5px #888888;
+          box-shadow: 5px 10px 10px 5px #888888;
+  border-radius: 0 25% 0 25%;
+}
+
+body .about-us h2 {
+  text-align: center;
+}
+
 body footer {
   height: auto;
   min-height: 100px;

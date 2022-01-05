@@ -4,8 +4,6 @@
     padding: 0;
 }
 
-
-
 body{
 
     // header
@@ -32,7 +30,53 @@ body{
         }
     }
 
+// price
+.price{
+    width: 80%;
+    margin: 5% 5% 5% 10%;
+    .card{
+        text-align: center;
+        height: auto;
+        min-height: 300px;
+        box-shadow: 5px 10px 10px 5px#888888
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+    span{
+        font-size: 30px;
+        color: #7A2048;
+    }
+    ul{
+       
+        text-align: left;
+        // list-style: none;
+        margin-left: 20%;
+    }
+    h5{
+        color: rgb(226, 226, 72);
+    }
+    h2{
+        text-align: center;
+        margin: 5%;
+    }
+}
 
+// about-us
+.about-us{
+    .div1, .div2{
+        width: 70%;
+        margin: 5% 5% 5% 15%;
+        padding: 3%;
+        box-shadow: 5px 10px 10px 5px#888888;
+        border-radius: 0 25% 0 25%;
+    }
+   h2{
+       text-align: center;
+   }
+}
+
+//footer
     footer{
         height: auto;
         min-height: 100px;
@@ -40,8 +84,6 @@ body{
         display: grid;
         grid-template-columns: 20% 50% 30%;
         color: white;
-    }
-    footer{
         .logo{
             width: auto ;
             height: auto;
@@ -70,5 +112,6 @@ body{
              margin: 5%;
          }
     }
+    
 
 }

@@ -1,7 +1,6 @@
 
 * {
     margin: 0;
-    padding: 0;
 }
 
 body {
@@ -33,10 +32,20 @@ body {
 	    display: grid;
 	    justify-content: center;
 	    grid-template-columns: 40% 40%;
-	    grid-gap: 15%;
-	    margin-top: 8%;
+	    grid-gap: 10%;
+	    height: auto;
+	    min-height: 300px;
+	    }
     }
 
+    .Contact-information {
+	    height: auto;
+	    min-height: 300px;
+    }
+
+    span {
+	    color: #7A2048;
+    }
 
     .fcf-body {
 	    margin-left: 5%;
