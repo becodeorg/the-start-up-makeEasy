@@ -4,12 +4,32 @@
     padding: 0;
 }
 
-body {
+body{
     .header {
-        height: auto;
-        min-height: 100px;
+        height: 100px;
         background-color: #7A2048;
     }
+
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .nav {
+        margin: -5% 2% 0 0;
+    }
+    
+    .nav{
+        a{
+            color: white;  
+        }
+        a:hover{
+            color: yellow;
+            transform: scale(1.5);
+        }
+    }
+
+    
     
     .container {
         display: grid;
@@ -19,31 +39,32 @@ body {
     }
 
     aside {
-         margin: 5% 5% 5% 0;
-	}
-
-    section {
-        background-color: #DDC3A5;
-        margin: 0 -50% 10% 0;
-        grid-template-columns: 90%; 
-         height: 200px;
-      
-    }
+         margin: 25% 5% 5% 0;
+         height: 500px;
+       }
+    section{
+        margin: 0 -50% 20% 0;
+        grid-template-columns: 80%; 
+        height: 200px;
+        text-align: center;
+        padding: 2% 10% 2% 10%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
 
     img {
         width: 800px;
-        height: 400px;
+        height: 500px;
     }
     .slider-holder {
         width: 800px;
-        height: 400px;
+        height: 500px;
         text-align: center;
         overflow: hidden;
-        margin: 5% 0 5% 0;
+        margin: 10% 0 5% 0;
     }
    
     .image-holder {
-        width: 2400px;
+        width: 3500px;
         height: 400px;
         clear: both;
         position: relative;
@@ -72,10 +93,20 @@ body {
     #slider-image-3:target ~ .image-holder {
         left: -1600px;
     }
+    #slider-image-4:target ~ .image-holder
+    {
+        left: -2400px;
+    }
    
     .button-holder {
         position: relative;
-        top: -20px;
+        top: -30px;
+       
+    }
+    .button-holder{
+        a{
+            width: 50px;
+        }
     }
    
     .slider-change {
@@ -86,12 +117,54 @@ body {
         background-color: red;
     }
 
+    .testimonial {
+        margin: 5%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .card-img-top{
+        width: 100%;
+        height: 200px;
+    }
     footer {
         height: auto;
         min-height: 100px;
         background-color: #7A2048;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 20% 50% 30%;
+        color: white;
+    }
+    footer{
+        .logo{
+            width: auto ;
+            height: auto;
+        }
+        iframe{
+           justify-self: end;
+           height: 100%;
+           width: 95%;
+           border: none;
+        }
+        .footer-copyright{
+            justify-self: center;
+            padding-top: 5%;
+         }
+         .footer-copyright{
+             a{
+                text-decoration: none;
+                color: white;
+             }
+         }
+         .socialMedia{
+            width: 50px ;
+            height: 50px;
+         }
+         svg{
+             margin: 5%;
+         }
     }
 }
 
