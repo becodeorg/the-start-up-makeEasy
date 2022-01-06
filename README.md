@@ -29,6 +29,12 @@
  #### fram-work and extention
       scss
       bootstrap
+      
+ #### Time
+   <b>Three Days</b>
+   * first day: Design, choose name, set-up files, work on html.
+   * second day: CSS and Responsive Design.
+   * second day: Prepare presentation and make a code clean ....
 
 
 
