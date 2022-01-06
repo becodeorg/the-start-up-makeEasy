@@ -3,7 +3,7 @@
 ### Structure before start code
 
  #### idea
-     webshop
+     web-shop
    
 
 #### wire-frame
@@ -17,7 +17,7 @@
 
 
  ####  objection of project
-     Build an interactive website
+     Build website
      
 
  ####  which computer language we use
