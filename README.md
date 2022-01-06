@@ -17,7 +17,7 @@
 
 
  ####  Aim of project
-     Build website
+     Build website(For practice of HTML, CSS, SASS, BOOTSRAP,GIT.... collabration, writing clean code.....)
      
 
  ####  which computer language we use
