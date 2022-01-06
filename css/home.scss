@@ -19,12 +19,12 @@ body{
         width: 150px;
         height: 100px;
     }
-    .nav {
+    .nav{
          margin: -5% 2% 0 0;
-          {
+         a{
             color: white;  
         }
-        a:hover {
+        a:hover{
             color: yellow;
             transform: scale(1.5);
         }
