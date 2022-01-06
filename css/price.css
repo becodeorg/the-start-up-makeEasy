@@ -83,14 +83,14 @@ body footer svg {
   body .header {
     width: auto;
     min-width: 80%;
-    height: 50px;
+    height: 100px;
   }
   body .header .logo {
-    width: 50px;
-    height: 50px;
+    width: auto;
+    height: 100px;
   }
   body .header .nav {
-    margin: 0 0 0 0;
+    margin: 5% 0 0 0;
     float: left;
   }
   body footer {
@@ -177,7 +177,7 @@ body .about-us h2 {
 
 @media only screen and (max-width: 820px) {
   body .price {
-    margin: 15% 5% 5% 10%;
+    margin: 25% 5% 5% 10%;
   }
   body .price h2 {
     font-size: 20px;

@@ -139,17 +139,17 @@ body{
          
         aside{
             display: none;
+        }
         .container{
             display: grid;
             grid-template-columns: 100%;
             grid-gap: 10%;
              height: auto;
-            .slider-holder
-            {
+        .slider-holder{
                 display: none;
             } 
         }
-         }
+         
     section{
             margin: 5% 5% 0% 5%;
             text-align: left;
