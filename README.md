@@ -3,7 +3,7 @@
 ### Structure before start code
 
  #### idea
-     web shop
+     webshop
    
 
 #### wire-frame
@@ -27,8 +27,8 @@
 
 
  #### fram-work and extention
-      Scss
-      bootstarp
+      scss
+      bootstrap
 
 
 
