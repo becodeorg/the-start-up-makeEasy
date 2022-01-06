@@ -5,113 +5,80 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/price.css">
+	<link rel="stylesheet" href="../css/contact.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<title>Price</title>
+	<title>Contact</title>
 </head>
 
 <body>
 	<!--Header-->
 	<div class="header">
 		<div class="logo-pic">
-			<img src="images/e05235cdff1b4776928bc213862f4e3e (1).png" class="logo" />
+			<img src="../images/e05235cdff1b4776928bc213862f4e3e (1).png" class="logo" />
 		</div>
 		<div>
 			<ul class="nav justify-content-end">
 				<li class="nav-item">
-					<a class="nav-link active" href="/Home.html">HOME</a>
+					<a class="nav-link active" href="./Home.html">HOME</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/Contact.html">CONTACT</a>
+					<a class="nav-link" href="./Contact.html">CONTACT</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/Price.html">PRICE</a>
+					<a class="nav-link" href="./Price.html">PRICE</a>
 				</li>
 			</ul>
 		</div>
 	</div>
-
-	<!--Price-->
-	<article class="price">
-		<h2>MakeEasy Premium Plans</h2>
-		<div class="row row-cols-1 row-cols-md-3 g-4">
-			<div class="col">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">Personal</h5>
-						<ul>
-							<li>Custom domain</li>
-							<li>Free domain for 1 year</li>
-							<li>Storage space 35 GB</li>
-							<li>Bandwidth 2 GB</li>
-							<li>Priority customer care </li>
-						</ul>
-						<span>Free</span>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">Group</h5>
-						<ul>
-							<li>Custom domain</li>
-							<li>Free domain for 5 years</li>
-							<li>Storage space 50 GB</li>
-							<li>Bandwidth 10 GB</li>
-							<li>24/7 customer care </li>
-						</ul>
-						<span>$49/mon</span>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<div class="card-body">
-						<h5 class="card-title">Bussiness</h5>
-						<ul>
-							<li>Custom domain</li>
-							<li>Free domain for unlimted</li>
-							<li>Storage space unlimted</li>
-							<li>Bandwidth unlimted</li>
-							<li>24/7 customer care </li>
-						</ul>
-						<span>$120/mon</span>
-					</div>
+	<div class="container-1">
+		<div class="container-2">
+			<div class="fcf-body">
+				<div id="fcf-form">
+					<h3 class="fcf-h3">Contact us</h3>
+					<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+						<div class="fcf-form-group">
+							<label for="Name" class="fcf-label">Your name</label>
+							<div class="fcf-input-group">
+								<input type="text" id="Name" name="Name" class="fcf-form-control" required>
+							</div>
+						</div>
+						<div class="fcf-form-group">
+							<label for="Email" class="fcf-label">Your email address</label>
+							<div class="fcf-input-group">
+								<input type="email" id="Email" name="Email" class="fcf-form-control" required>
+							</div>
+						</div>
+						<div class="fcf-form-group">
+							<label for="Message" class="fcf-label">Your message</label>
+							<div class="fcf-input-group">
+								<textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000"
+									required></textarea>
+							</div>
+						</div>
+						<div class="fcf-form-group">
+							<button type="submit" id="fcf-button" class="btn btn-primary btn-lg">Send Message</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
-	</article>
-
-	<!--About us-->
-	<article class="about-us">
-		<h2>What do you know about us ?</h2>
-		<div class="div1">
-			We provide a world-class platform to over 200 million users worldwide, empowering anyone to express
-			themselves
-			and build their online presence. Whether you’re an entrepreneur, designer, developer, musician, photographer
-			or
-			restaurant owner, you’ll find specialized features to create a professional website and manage your
-			business.
+		<div class="Contact-information">
+			<h3 class="our-contact mb-4">Our contact information</h3>
+			<ul>
+				<li><span>Email adress:</span><br>makeeasy@gmail.com</li>
+				<br>
+				<li><span>Phone number:</span><br><a class="phone" href="tel:456 433 0984">456-433-0984</a></li>
+				<br>
+				<li><span>Website:</span><br>make-easy.com</li>
+			</ul>
 		</div>
-		<div class="div2">
-			We’re continually developing new tools to enable you to succeed. Ascend by MakeEasy provides you with an
-			all-in-one business solution so you can connect with customers and automate your workflow. With MakeEasy
-			Stores, you can sell your products and get paid online. Design a customized logo using MakeEasy Logo Maker
-			to establish your own brand and discover a complete set of SEO tools to help you compete in organic
-			search. Create promotional videos in seconds using MakeEasy Video Maker and share your story with your
-			online community with a MakeEasy Blog. Build advanced web applications using serverless computing and
-			hassle-free coding with our open development platform, Velo by MakeEasy.
-			Discover these and 100s of other powerful tools you can use to design and manage your website.
-		</div>
-	</article>
-
-
+	</div>
+	</div>
 	<!--Footer-->
 	<footer>
 		<div class="logo-pic">
-			<img src="images/e05235cdff1b4776928bc213862f4e3e (1).png" class="logo" />
+			<img src="../images/e05235cdff1b4776928bc213862f4e3e (1).png" class="logo" />
 		</div>
 		<div class="footer-copyright">
 			<p>© 2022 Copyright</p>
