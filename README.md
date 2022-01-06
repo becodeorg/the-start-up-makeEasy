@@ -7,6 +7,7 @@
    
 
 #### wire-frame
+   - using figma platform to design the wire-frame
    [Figma wire-frame](https://www.figma.com/file/IPPOhZz0KtJvxV7tQzG894/Home-page-for-makes-easy?node-id=0%3A1)
    
    
