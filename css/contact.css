@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
 }
 
 body .header {
@@ -25,6 +24,39 @@ body .nav a:hover {
   color: yellow;
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
+}
+
+body .container-1 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 40% 40%;
+      grid-template-columns: 40% 40%;
+  grid-gap: 10%;
+  margin-top: 8%;
+}
+
+body span {
+  color: #7A2048;
+}
+
+body .fcf-body {
+  margin-left: 5%;
+  height: auto;
+  min-height: 500px;
+  width: 200px;
+}
+
+body .fcf-form-control {
+  width: 250%;
+}
+
+body #fcf-button {
+  margin-top: 5%;
+  margin-left: 70%;
+  width: 200px;
 }
 
 body footer {
