@@ -138,16 +138,20 @@ body .fcf-body {
   margin-left: 5%;
   height: auto;
   min-height: 500px;
-  width: 200px;
+  width: 100%;
 }
 
 body .fcf-form-control {
-  width: 250%;
+  width: 100%;
+}
+
+body .fcf-form {
+  width: 100%;
 }
 
 body #fcf-button {
   margin-top: 8%;
-  margin-left: 73%;
+  margin-left: 28%;
   width: 200px;
   height: auto;
   border-color: #7A2048 !important;
@@ -169,9 +173,12 @@ body #fcf-button {
   body .Contact-information {
     height: auto;
     min-height: 300px;
-    margin-top: -20%;
+    min-width: 300px;
     margin-left: 20%;
     margin-bottom: 20%;
+  }
+  body #contact_info {
+    margin-bottom: 36px;
   }
   body .fcf-body {
     margin-top: 10%;
@@ -179,11 +186,11 @@ body #fcf-button {
   }
   body .fcf-body #fcf-button {
     margin-top: 5%;
-    margin-left: 50%;
+    margin-left: 18%;
   }
   body .fcf-body .fcf-form-control {
     width: auto;
-    min-width: 400px;
+    min-width: 300px;
   }
 }
 /*# sourceMappingURL=contact.css.map */
