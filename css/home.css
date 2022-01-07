@@ -93,6 +93,11 @@ body footer svg {
     margin: 5% 0 0 0;
     float: left;
   }
+  body .header .nav a:hover {
+    color: yellow;
+    -webkit-transform: none;
+            transform: none;
+  }
   body footer {
     height: auto;
     min-height: 50px;
@@ -203,7 +208,12 @@ body .button-holder {
 }
 
 body .button-holder a {
-  width: 50px;
+  width: 30px;
+  margin: 1%;
+}
+
+body .button-holder a:hover {
+  color: pink;
 }
 
 body .slider-change {
