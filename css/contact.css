@@ -93,11 +93,6 @@ body footer svg {
     margin: 5% 0 0 0;
     float: left;
   }
-  body .header .nav a:hover {
-    color: yellow;
-    -webkit-transform: none;
-            transform: none;
-  }
   body footer {
     height: auto;
     min-height: 50px;
