@@ -54,4 +54,4 @@
     * content of the page
     * git conflict 
     * choose colors
-    * Find the right image
+    * Find the right image(Images can represent your company)
