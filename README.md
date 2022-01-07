@@ -51,6 +51,6 @@
  
 
 10. Obstacle
-   * content of the page
-   * git conflict 
-   * choose colors
+    * content of the page
+    * git conflict 
+    * choose colors
