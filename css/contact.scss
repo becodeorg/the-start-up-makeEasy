@@ -1,8 +1,8 @@
 @import 'style';
 
-
 body{
     .container-1 {
+<<<<<<< HEAD
 	    display: grid;
 	    justify-content: center;
 	    grid-template-columns: 40% 40%;
@@ -79,3 +79,47 @@ body{
 
 
 
+=======
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 40% 40%;
+	grid-gap: 10%;
+	height: auto;
+	min-height: 300px;
+	margin-top: 5%;
+	}
+
+	.Contact-information {
+		height: auto;
+		min-height: 300px;
+
+		.phone {
+			color: black;
+		}
+	}
+
+	span {
+		color: #7A2048;
+	}
+
+	.fcf-body {
+		margin-left: 5%;
+		height: auto;
+		min-height: 500px;
+		width: 200px;
+	}
+
+	.fcf-form-control {
+		width: 250%;
+	}
+
+	#fcf-button {
+		margin-top: 8%;
+		margin-left: 73%;
+		width: 200px;
+		height: auto;
+		border-color: #7A2048 !important;
+		background-color: #7A2048 !important;
+	}
+}	
+>>>>>>> origin/main

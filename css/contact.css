@@ -123,11 +123,16 @@ body .container-1 {
   grid-gap: 10%;
   height: auto;
   min-height: 300px;
+  margin-top: 5%;
 }
 
 body .Contact-information {
   height: auto;
   min-height: 300px;
+}
+
+body .Contact-information .phone {
+  color: black;
 }
 
 body span {
@@ -146,9 +151,12 @@ body .fcf-form-control {
 }
 
 body #fcf-button {
-  margin-top: 5%;
-  margin-left: 70%;
+  margin-top: 8%;
+  margin-left: 73%;
   width: 200px;
+  height: auto;
+  border-color: #7A2048 !important;
+  background-color: #7A2048 !important;
 }
 
 @media only screen and (max-width: 820px) {
