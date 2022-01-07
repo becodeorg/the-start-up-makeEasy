@@ -1,4 +1,4 @@
-# makesEeasy
+# makeEeasy
 
 
 1. idea
@@ -51,6 +51,6 @@
  
 
 10. Obstacle
-   * content of the page
-   * git conflict 
-   * choose colors
+    * content of the page
+    * git conflict 
+    * choose colors
