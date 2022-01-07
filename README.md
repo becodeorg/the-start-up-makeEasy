@@ -54,4 +54,4 @@
     * content of the page
     * git conflict 
     * choose colors
-    * Fimd the correct image
+    * Find the right image
