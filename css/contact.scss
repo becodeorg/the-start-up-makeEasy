@@ -2,84 +2,6 @@
 
 body{
     .container-1 {
-<<<<<<< HEAD
-	    display: grid;
-	    justify-content: center;
-	    grid-template-columns: 40% 40%;
-	    grid-gap: 10%;
-	    height: auto;
-	    min-height: 300px;
-	    }
-  
-
-    .Contact-information {
-	    height: auto;
-	    min-height: 300px;
-    }
-
-    span {
-	    color: #7A2048;
-    }
-
-    .fcf-body {
-	    margin-left: 5%;
-	    height: auto;
-	    min-height: 500px;
-	    width: 200px;
-    }
-
-    .fcf-form-control {
-	    width: 250%;
-    }
-    
-    #fcf-button {
-	    margin-top: 5%;
-	    margin-left: 70%;
-	    width: 200px;
-    }
-}
-
-@media only screen and (max-width: 820px){
-    
-    body{
-        .container-1 {
-            display: grid;
-            justify-content: center;
-            grid-template-columns: 100%;
-            
-            height: auto;
-            min-height: 300px;
-            }
-            .Contact-information {
-                height: auto;
-                min-height: 300px;
-                margin-top: -20%;
-                margin-left: 20%;
-                margin-bottom: 20%;
-            
-            }
-            .fcf-body{
-                margin-top: 10%;
-                margin-left: 15%;
-                #fcf-button {
-                    margin-top: 5%;
-                    margin-left: 50%;
-                    
-                }
-                .fcf-form-control {
-                    width: auto;
-                    min-width: 400px;
-                }
-            }
-
-           
-            
-    }
-}
-
-
-
-=======
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 40% 40%;
@@ -122,4 +44,3 @@ body{
 		background-color: #7A2048 !important;
 	}
 }	
->>>>>>> origin/main
