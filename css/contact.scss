@@ -2,19 +2,18 @@
 
 body {
     .container-1 {
-	display: grid;
-	justify-content: center;
-	grid-template-columns: 40% 40%;
-	grid-gap: 10%;
-	height: auto;
-	min-height: 300px;
-	margin-top: 5%;
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 40% 40%;
+		grid-gap: 10%;
+		height: auto;
+		min-height: 300px;
+		margin-top: 5%;
 	}
-
+	
 	.Contact-information {
 		height: auto;
 		min-height: 300px;
-
 		.phone {
 			color: black;
 		}
@@ -28,16 +27,20 @@ body {
 		margin-left: 5%;
 		height: auto;
 		min-height: 500px;
-		width: 200px;
+		width: 100%;
 	}
 
 	.fcf-form-control {
-		width: 250%;
+		width: 100%;
+	}
+
+	.fcf-form {
+		width: 100%; 
 	}
 
 	#fcf-button {
 		margin-top: 8%;
-		margin-left: 73%;
+		margin-left: 28%;
 		width: 200px;
 		height: auto;
 		border-color: #7A2048 !important;
@@ -58,22 +61,24 @@ body {
             .Contact-information {
                 height: auto;
                 min-height: 300px;
-                margin-top: -20%;
+				min-width: 300px;
                 margin-left: 20%;
                 margin-bottom: 20%;
-            
             }
+			#contact_info {
+				margin-bottom: 36px;
+			}
             .fcf-body{
                 margin-top: 10%;
                 margin-left: 15%;
                 #fcf-button {
                     margin-top: 5%;
-                    margin-left: 50%;
+                    margin-left: 18%;
                     
                 }
                 .fcf-form-control {
                     width: auto;
-                    min-width: 400px;
+                    min-width: 300px;
                 }
             }
     }
