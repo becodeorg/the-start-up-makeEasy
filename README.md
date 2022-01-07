@@ -1,4 +1,4 @@
-# makesEeasy
+# makeEeasy
 
 
 1. idea
